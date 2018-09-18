@@ -1,4 +1,64 @@
 body {
-    /* font-family: "Avenir", Arial, serif;
-    background: #00aee8; */
+    font-family: "Avenir", Arial, serif;
+    background: #fff;
+    margin: 0;
 }
+
+img {
+    max-width: 10em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cd-nav-container {
+    background: #fff;
+}
+.cd-logo-container img {
+    max-width: 4em;
+}
+
+.cd-nav-container {
+    display: flex;
+}
+
+.cd-logo-container {
+    flex: 1;
+}
+
+.cd-nav-items {
+    flex: 6;
+}
+
+.cd-header-links {
+    float: right;
+}
+.cd-header-links li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5em;     
+}
+.cd-header-links li a {
+    vertical-align: -webkit-baseline-middle;  
+}
+
+.cd-home-banner {
+    /* background: url('images/sandiego.jpg'); */
+    background: #00aee8;
+    height: 30em;
+}
+.cd-home-headers {
+    text-align: center;
+    padding: 8em;
+}
+.cd-home-headers h2 {
+    text-transform: uppercase;
+}
+.cd-home-headers h1,
+.cd-home-headers h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
