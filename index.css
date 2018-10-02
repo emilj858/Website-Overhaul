@@ -11,7 +11,7 @@ body {
 
 /* === General Styles === */
 .cd-section {
-    height: 30em;
+    min-height: 30em;
     padding: 1em;
     position: relative;
 }
@@ -99,3 +99,43 @@ img {
 .cd-solution-description {
     margin: 0;
 }
+.section-container {
+    padding: 1em;
+}
+.section-container.section-header {
+    max-width: 60em;
+    margin: 0 auto;
+}
+.section-container.our-service {
+    max-width: 50em;
+    margin: 0 auto;
+}
+.section-container.steps-section {
+    max-width: auto;
+}
+h3.cd-section-subheading {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+
+/* === Our Service Section === */
+.cd-explainer-container {
+    border: 1px solid #000;
+    padding: 1em;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.cd-steps-listings {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.cd-step {
+    margin: 0 .75em;
+    padding: .75em;
+}
+
+
