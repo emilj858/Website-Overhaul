@@ -1,4 +1,7 @@
 
+
+
+/* === General Styles === */
 body { 
     background-color: #fff;
     display: block;
@@ -9,82 +12,110 @@ body {
     text-align: center;
 } 
 
-/* === General Styles === */
 .cd-section {
-    min-height: 30em;
-    padding: 1em;
+    min-height: 20em;
     position: relative;
 }
-
 .cd-section:nth-child(even) {
     background: #d2d2d2;
 }
-
+.cd-section-container {
+    margin: 0 auto;
+    max-width: 80em;
+    padding: 4em 0;
+}
+.cd-header-container {
+    max-width: auto;
+}
+.cd-section-header {
+    margin: auto;
+}
 a {
     text-decoration: none;
 }
-
 img {
     max-width: 10em;
 }
+
+
+
 
 /* === Header === */
 .cd-nav-container {
     background: #fff;
     display: flex;
 }
-
 .cd-logo-container img {
     max-width: 4em;
 }
-
 .cd-logo-container {
     flex: 1;
 }
-
 .cd-nav-items {
     flex: 6;
 }
-
 .cd-header-links {
     float: right;
 }
-
 .cd-header-links li {
     display: inline-block;
     list-style: none;
     margin-right: 1.5em;     
 }
-
 .cd-header-links li a {
     vertical-align: -webkit-baseline-middle;  
 }
-
 .cd-home-banner {
     /* background: url('images/sandiego.jpg'); */
     background: #00aee8;
     height: 30em;
 }
-
 .cd-home-headers {
     text-align: center;
     padding: 8em;
 }
-
 .cd-home-headers h2 {
     text-transform: uppercase;
 }
-
 .cd-home-headers h1,
 .cd-home-headers h2 {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
 
-/* === Body Styles === */
+
+
+
+/* === Our Service Section === */
+.cd-explainer-container {
+    border: 1px solid #000;
+    padding: 1em;
+    max-width: 70em;
+    margin: 0 auto;
+}
+.cd-steps-listings {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.cd-step {
+    margin: 0 .75em;
+    padding: .75em;
+}
+.cd-section-header.operating-hours {
+    margin-top: 0;
+}
+.our-service {
+    max-width: 40em;
+    margin: 3em auto;
+}
+
+
+
+
+/* === Solutions Section === */
 .cd-solutions-container {
     display: flex;
-    justify-content: space-between;
 }
 .cd-solution-type {
     border: 1px solid #000;
@@ -96,46 +127,89 @@ img {
 .cd-solution-title {
     margin-top: 0;
 }
-.cd-solution-description {
-    margin: 0;
-}
-.section-container {
-    padding: 1em;
-}
-.section-container.section-header {
+.section-header {
     max-width: 60em;
     margin: 0 auto;
 }
-.section-container.our-service {
-    max-width: 50em;
-    margin: 0 auto;
-}
-.section-container.steps-section {
-    max-width: auto;
-}
-h3.cd-section-subheading {
+.cd-section-subheading {
     max-width: 30em;
     margin: 0 auto;
 }
-
-
-/* === Our Service Section === */
-.cd-explainer-container {
-    border: 1px solid #000;
-    padding: 1em;
-    max-width: 70em;
-    margin: 0 auto;
+.solution-price {
+    margin: 1em 0;
+    font-size: 110%;
+}
+.discount-tagline:before {
+    content: '*';
+    color: #fa5555;
+    margin-right: .25em;
+    font-weight: 700;
 }
 
-.cd-steps-listings {
-    display: flex;
+
+
+/* === TESTIMONIALS SECTION === */
+.celebrity-list {
     list-style: none;
     padding: 0;
 }
 
-.cd-step {
-    margin: 0 .75em;
-    padding: .75em;
+
+/* === FAQs SECTION === */
+ul.faq-listings {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+li.faq-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    flex: 1 1 30em;
 }
 
 
+/* === ABOUT US SECTION === */
+.cd-info-container {
+    display: flex;
+}
+.cd-info-container ul {
+    list-style: none;
+    padding: 0;
+}
+.info-division {
+    flex: 1;
+}
+
+
+
+
+
+
+/* === FOOTER STYLES === */
+.cd-footer-container {
+    display: flex;
+    max-width: 80em;
+    margin: 0 auto;
+    padding: .5em 0;
+}
+.terms-privacy-container {
+    margin: 1em 0;
+}
+p.cure-desclaimer {
+    text-align: right;
+    flex: 1;
+}
+#terms {
+    margin-right: 1em;
+}
+
+
+
+
+
+
+div#sign-up {
+    display: none;
+}
